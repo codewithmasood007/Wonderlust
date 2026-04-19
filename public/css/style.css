@@ -1,0 +1,133 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container{
+  flex:1
+}
+/* Navbar */
+.navbar-brand span {
+  font-size: 22px;
+}
+
+.nav-link:hover {
+  color: #ff5a5f !important;
+}
+.navbar{
+  height: 5rem;
+}
+
+/* footer */
+
+.f-info{
+ /* background-color: #D8C3A5; */
+ background-color: #B7AFA3;
+ height: 8rem;
+ color:#2C2C2C;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items:space-evenly;
+}
+.f-info-links a{
+   text-decoration: none;
+   color: black;
+}
+.f-info-links a:hover{
+   text-decoration: underline;
+}
+
+
+.f-info-social,
+.f-info-links,
+.brand{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-social i{
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+/* Cards */
+
+.listing-card{
+  border: none !important;
+  margin-bottom: 1rem !important;
+  object-fit: cover;
+}
+.card-img-top{
+  border-radius: 2rem;;
+}
+.card-body{
+  padding: 0;
+}
+.card-text p{
+  font-weight: 400;
+}
+
+.listing-link{
+  text-decoration: none !important;
+  color: black;
+}
+
+/* Cards Overlay */
+.card-img-overlay{
+  opacity: 0;
+}
+.card-img-overlay:hover{
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* new ejs */
+.btn-add{
+  background-color:#f0383e;
+  border: none !important;
+  color:aliceblue;
+  border-radius:0.5rem;
+  box-shadow: 2px 12px 14px 2px rgb(233, 150, 150);
+}
+
+/* edit.ejs */
+
+.edit-btn{
+  background-color: #ff5a5f;
+}
+
+/* show ejs */
+
+.show_img{
+  height: 30vh !important;
+}
+
+/* style edit && delete button */
+
+.btns{
+  display: flex;
+  align-items: center;
+  margin-top:2rem;
+  margin-left: 14rem;
+}
+.edit{
+  margin-right: 3rem;
+}
+.edit_show{
+  background-color: #ff5a5f;
+}
+/* review-section -- show.ejs */
+.review-section,.show-review{
+  margin-left: 14rem;
+}
+
+/* for map */
+#map {
+    height: 400px; /* Or any value like 50vh */
+    width: 100%;
+    position: relative; /* Sometimes helps with z-index issues */
+}
